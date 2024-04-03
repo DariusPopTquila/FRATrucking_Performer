@@ -1,0 +1,130 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Edge_LogIn" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1377.3333333333333,1538.6666666666667" sap2010:WorkflowViewState.IdRef="Edge_LogIn_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:r="clr-namespace:RPA_LIB_BA80;assembly=RPA_LIB_BA80" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>RPA_LIB_BA80</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>RPA_LIB_BA80</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="BA80_Login" sap:VirtualizedContainerService.HintSize="546,1474" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <r:BA80___Launch_Application DisplayName="BA80 - Launch Application" sap:VirtualizedContainerService.HintSize="484,302.6666666666667" sap2010:WorkflowViewState.IdRef="BA80___Launch_Application_1" in_IntDefaultDelay="200" in_IntDefaultTimeoutL="60000" in_IntDefaultTimeoutM="15000" in_IntDefaultTimeoutS="1000" in_StrBA80SystemPath="C:\Program Files (x86)\British Airways Plc\WinBABS 2000\wbabs2k.exe" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: Select WinBABS Machine Session" sap:VirtualizedContainerService.HintSize="484,572.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="Never" ScopeGuid="87df708f-24ce-4a5b-9ae0-61a742a24820" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,275.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="87df708f-24ce-4a5b-9ae0-61a742a24820" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="282, 55, 112, 34" CvTextArea="316, 63, 42, 19" CvTextArgument="Open" CvType="Button" DesignTimeRectangle="282, 55, 113, 35" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd title='Open' /&gt;" FuzzySelectorArgument="&lt;wnd title='Open' /&gt;" Guid="c206a369-3cb5-48aa-8db3-4b266bea91b6" InformativeScreenshot="ada243bcb2cd3863edc6831882a0b464.png" ScopeSelectorArgument="&lt;wnd app='wbabs2k.exe' cls='#32770' title='Select WinBABS Machine Session' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvElementArea="281, 99, 114, 35" CvTextArea="311, 106, 52, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="282, 100, 113, 35" ElementType="Button" FriendlyName="'Cancel'" FullSelectorArgument="&lt;wnd ctrlid='2' title='Cancel' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='Cancel' check:text='Cancel' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="269, 470, 414, 386" FilePath="C:\Program Files (x86)\British Airways Plc\WinBABS 2000\wbabs2k.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFISURBVGhD7ZEBDoIwDEU5OkfjZrrWlnTjLwPtNiR9yTM6x2+/LkEQBH/Ha6CucOi2bV0l1nVlZaYbf12Ag0egy3sVGPKrW6NAwaGAHeBlLV/m/8ReoAh1lYgCFTjkWODl5OQChL7/zijQhEMeW+B3o0ATDokCVaNAEw6JAlWjQBMOORbwtVeBfYCGkz2w+aAA8hT7A3ZAD2y+RwG+ZAPsgN7aubYMoe/le0j2EH2eod1BsWdyD4IuDtfuoNgzuZfBh+gvnWm5eLPA3UDLk7JvxjMKoL9xpmh5UvbNgAXS4RDLuSpanpR9M/iwDNABvS3nqmh5UvbN4EMUUqpDvUWz0PKk7JvBhyjE08+un1nW9ALvVxYnD/AXKMTTNMIusZte4P1bFEixFdvzwPJVTgWOtvWrW55RwP5ld1D2uoQ+dBcvg0Jm2mBZ3sEDiGRLQxV/AAAAAElFTkSuQmCC" InformativeScreenshot="13f65e2c5e85e7dc6dbb76eaf0ee7f68.png" Selector="&lt;wnd app='wbabs2k.exe' cls='#32770' title='Select WinBABS Machine Session' /&gt;" Title="Select WinBABS Machine Session" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <r:BA80___Start_Screen___Get_Cred_And_Login in_StrPreSigninComment="{x:Null}" DisplayName="BA80 - Start Screen - Get Cred And Login" sap:VirtualizedContainerService.HintSize="484,408" sap2010:WorkflowViewState.IdRef="BA80___Start_Screen___Get_Cred_And_Login_1" in_IntDefaultDelay="200" in_IntDefaultTimeoutL="60000" in_IntDefaultTimeoutM="15000" in_IntDefaultTimeoutS="1000" in_StrBA80Credentials="FRATrucking_BA80Login" in_StrBA80SystemPath="C:\Program Files (x86)\British Airways Plc\WinBABS 2000\wbabs2k.exe" />
+  </Sequence>
+</Activity>
